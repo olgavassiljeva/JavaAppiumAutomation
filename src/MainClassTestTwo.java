@@ -1,3 +1,11 @@
+import org.junit.Test;
+import org.junit.Assert;
+
 public class MainClassTestTwo {
-    private int class number = 12;
+    @Test
+    //just testing
+    public void testAlwaysTrue()
+    {
+        Assert.assertTrue(Boolean.parseBoolean("True"));
+    }
 }

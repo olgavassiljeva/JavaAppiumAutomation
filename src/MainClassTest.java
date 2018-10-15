@@ -13,7 +13,7 @@ public class MainClassTest {
     @Test
     public void testGetClassNumber() {
 
-//        Assertions.assertThat(mainClass.getLocalNumber()).isGreaterThan(45); // assertj library
+        //Assertions.assertThat(mainClass.getLocalNumber()).isGreaterThan(45); // assertj library
         Assert.assertEquals("Number should be bigger than 45", 45, mainClass.getClassNumber());
     }
 
